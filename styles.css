@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+#navTitle {
+  font-size: 1.6em;
+}
+
+.hero-image {
+  /* The image used */
+  background-image: url("pic1.jpg");
+  /* Set a specific height */
+  height: 42%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center 58%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.contact {
+  background: rgb(255, 190, 0, 0.9);
+  border: none;
+}
+
+.iconsize {
+  width: 26px;
+}
